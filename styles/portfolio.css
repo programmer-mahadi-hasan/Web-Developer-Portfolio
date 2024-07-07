@@ -12,8 +12,14 @@
 .text-primary{
     color: #FD6E0A;
 }
+.dark-01{
+    color:#181818;
+}
 .dark-02{
     color: #474747;
+}
+.dark-03{
+    color: #757575;
 }
 .btn-primary{
     font-size: 20px;
@@ -24,7 +30,15 @@
     border: none;
     border-radius: 5px;
 }
-
+/* header styles */
+header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    
+}
+/* nav styles */
 nav{
     display: flex;
     justify-content: space-between;
@@ -46,4 +60,31 @@ nav li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 560px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    margin: 5px 0 20px 0;
+}
+.banner-description{
+    font-size: 18px;
+}
+.banner-pro-pic{
+    width: 560px;
 }
